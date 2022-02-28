@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--   Tue, 07 Jan 2020 03:33:27 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Ecommerce Dashboard &mdash; CodiePie</title>
+
+    <!-- General CSS Files -->
+    <link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/modules/fontawesome/css/all.min.css">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="assets/modules/jqvmap/dist/jqvmap.min.css">
+    <link rel="stylesheet" href="assets/modules/summernote/summernote-bs4.css">
+    <link rel="stylesheet" href="assets/modules/owlcarousel2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/modules/owlcarousel2/dist/assets/owl.theme.default.min.css">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/components.min.css">
+
+</head>
+
+<body class="layout-4">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div id="app">
+        <div class="main-wrapper main-wrapper-1">
+            <div class="navbar-bg"></div>
+
+
+            <!-- Start main left sidebar menu -->
+            <div class="main-sidebar sidebar-style-3">
+                <aside id="sidebar-wrapper">
+                    <div class="sidebar-brand">
+                        <a href="">LMS Admin Panel</a>
+                    </div>
+                    
+                    <ul class="sidebar-menu">
+                        <li class="menu-header">Dashboard</li>
+                        <li class="dropdown">
+                           
+                            <ul>
+                                <li><a class="nav-link" href="">Add Books</a></li>
+                                <li><a class="nav-link" href="">View Books</a></li>
+                                <li><a class="nav-link" href="">Add Category</a></li>
+                                <li><a class="nav-link" href="">View Categories</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="sidebar-menu">
+                        <li class="menu-header">Settings</li>
+                        <li class="dropdown">
+                           
+                            <ul>
+                                <li><a class="nav-link" href="">View Profile</a></li>
+                                <li><a class="nav-link" href="">Change Password</a></li>
+                                <li><a class="nav-link" href="">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </aside>
+            </div>
+
+          
+            <div class="main-content">
+                <section class="section">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="card card-statistic-2">
+                                <div class="card-stats">
+                                    <div class="card-stats-title text-center">Total Books</div>
+
+                                    <div class="card-body mb-3 text-center">
+                                        59
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-deck">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Users</h4>
+                                    <div class="card-header-action">
+                                        <a href="#" class="btn btn-danger">Users <i
+                                                class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                                <!-- <div class="card-body p-0">
+                                    <div class="table-responsive table-invoice">
+                                        <table class="table table-striped">
+                                            <tr>
+                                                <th>Invoice ID</th>
+                                                <th>Customer</th>
+                                                <th>Status</th>
+                                                <th>Due Date</th>
+                                                <th>Action</th>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">INV-87239</a></td>
+                                                <td class="font-weight-600">Kusnadi</td>
+                                                <td>
+                                                    <div class="badge badge-warning">Unpaid</div>
+                                                </td>
+                                                <td>July 19, 2018</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-primary">Detail</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">INV-48574</a></td>
+                                                <td class="font-weight-600">Susie Willis</td>
+                                                <td>
+                                                    <div class="badge badge-success">Paid</div>
+                                                </td>
+                                                <td>July 21, 2018</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-primary">Detail</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">INV-76824</a></td>
+                                                <td class="font-weight-600">Muhamad Nuruzzaki</td>
+                                                <td>
+                                                    <div class="badge badge-warning">Unpaid</div>
+                                                </td>
+                                                <td>July 22, 2018</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-primary">Detail</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">INV-84990</a></td>
+                                                <td class="font-weight-600">Agung Ardiansyah</td>
+                                                <td>
+                                                    <div class="badge badge-warning">Unpaid</div>
+                                                </td>
+                                                <td>July 22, 2018</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-primary">Detail</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">INV-87320</a></td>
+                                                <td class="font-weight-600">Ardian Rahardiansyah</td>
+                                                <td>
+                                                    <div class="badge badge-success">Paid</div>
+                                                </td>
+                                                <td>July 28, 2018</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-primary">Detail</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        
+
+            <!-- General JS Scripts -->
+            <script src="assets/bundles/lib.vendor.bundle.js"></script>
+            <script src="js/CodiePie.js"></script>
+
+            <!-- JS Libraies -->
+            <script src="assets/modules/jquery.sparkline.min.js"></script>
+            <script src="assets/modules/chart.min.js"></script>
+            <script src="assets/modules/owlcarousel2/dist/owl.carousel.min.js"></script>
+            <script src="assets/modules/summernote/summernote-bs4.js"></script>
+            <script src="assets/modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+
+            <!-- Page Specific JS File -->
+            <script src="js/page/index.js"></script>
+
+            <!-- Template JS File -->
+            <script src="js/scripts.js"></script>
+            <script src="js/custom.js"></script>
+</body>
+
+<!--   Tue, 07 Jan 2020 03:35:12 GMT -->
+
+</html>
